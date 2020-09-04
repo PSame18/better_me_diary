@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class RegisterPage extends StatefulWidget {
-  RegisterPage({Key key, this.title}) : super(key: key);
+  
+  const RegisterPage({Key key, this.title}) : super(key: key);
 
   final String title;
 
@@ -17,7 +18,7 @@ class _RegisterPageState extends State<RegisterPage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: const Center(),
     );
   }
 }

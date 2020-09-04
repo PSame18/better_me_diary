@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
-  LoginPage({Key key, this.title}) : super(key: key);
+  
+  const LoginPage({Key key, this.title}) : super(key: key);
 
   final String title;
 
@@ -17,7 +18,7 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: const Center(),
     );
   }
 }

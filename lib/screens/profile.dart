@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatefulWidget {
-  ProfilePage({Key key, this.title}) : super(key: key);
+  
+  const ProfilePage({Key key, this.title}) : super(key: key);
 
   final String title;
 
@@ -17,7 +18,7 @@ class _ProfilePageState extends State<ProfilePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(),
+      body: const Center(),
     );
   }
 }
